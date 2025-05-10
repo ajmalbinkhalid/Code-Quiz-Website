@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz app</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h2 class="heading">JavaScript Quiz Questions</h2>
+    <div class="quizz-container">
+        <h3 class="questionHeading">The question to ask</h3>
+        <form action="" >
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="option">
+                    <label class="label optionA" for="a">Option 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="option">
+                    <label class="label optionB" for="b">Option 2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="option">
+                    <label class="label optionC" for="c">Option 3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="option">
+                    <label class="label optionD" for="d">Option 4</label>
+                </li>
+            </ul>
+            <p id="feedback"></p>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
