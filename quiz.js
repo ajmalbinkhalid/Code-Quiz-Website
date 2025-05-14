@@ -136,8 +136,7 @@ function submitOption(){
             return; // Stop further execution
         }
 
-        if(userSelectedOption === quizData[quizNumber].answ
-            er){
+        if(userSelectedOption === quizData[quizNumber].answer){
             // alert(" yes you are right congrats "+userSelectedOption)
             mark += 1
         }
