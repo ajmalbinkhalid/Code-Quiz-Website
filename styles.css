@@ -400,4 +400,8 @@ footer{
         gap: 15px; /* Reduce gap between topics */
         padding: 15px; /* Reduce padding */
     }
+
+    #quiz .topics .topic{
+        max-width: 200px;
+    }
 }
